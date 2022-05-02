@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">555555</text>
+  </view>
+  <fixButton></fixButton>
+</view>

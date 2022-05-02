@@ -1,0 +1,99 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="home">
+   <div class="top">
+    <div class="camera">
+        <image src="../../static/相机2.png" alt=""/>
+    </div>
+   </div>
+   <div class="middle">
+      <div class="product">
+          <div class="proImg">
+              <div class="proDiv"  bindtap="toClass">
+                  <image src="../../static/ya6.png" alt=""/>
+                  <span>产品1</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/ya2.png" alt=""/>
+                  <span>产品2</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/ya3.png" alt=""/>
+                  <span>产品3</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/ya4.png" alt=""/>
+                  <span>产品4</span>
+              </div>
+
+          </div>
+          <div class="proImg" bindtap="toClass">
+            <div class="proDiv">
+                  <image src="../../static/ya5.png" alt=""/>
+                  <span>产品5</span>
+            </div>
+            <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/ya1.png" alt=""/>
+                  <span>产品5</span>
+            </div>
+            <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/ya7.png" alt=""/>
+                  <span>产品5</span>
+            </div>
+            <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/ya8.png" alt=""/>
+                  <span>产品5</span>
+            </div>
+          </div>
+      </div>
+      <div class="food">
+        <div class="proImg" style="border-bottom: 1rpx solid #CCC;height:200rpx">
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/shu.png" alt=""/>
+                  <span>薯条</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/han.png" alt=""/>
+                  <span>汉堡</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/cha.png" alt=""/>
+                  <span>奶茶</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="" alt=""/>
+                  <span>更多食物...</span>
+              </div>
+        </div>
+      </div>
+      <div class="hospital">
+        <div class="proImg" style="border-bottom: 1rpx solid #CCC;height:200rpx">
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/yi1.png" alt=""/>
+                  <span>医院1</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/yi2.png" alt=""/>
+                  <span>医院2</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="../../static/yi3.png" alt=""/>
+                  <span>医院3</span>
+              </div>
+              <div class="proDiv" bindtap="toClass">
+                  <image src="" alt=""/>
+                  <span>更多医院...</span>
+              </div>
+          </div>
+      </div>
+   </div>
+   <div class="bottom">
+    <van-tabbar active="{{ active }}" bind:change="onChange">
+      <van-tabbar-item icon="wap-home-o">首页</van-tabbar-item>
+      <van-tabbar-item icon="gem-o" bindtap="toClass">资讯</van-tabbar-item>
+      <van-tabbar-item icon="comment-circle-o">回答</van-tabbar-item>
+      <van-tabbar-item icon="friends-o">我的</van-tabbar-item>
+    </van-tabbar>
+   </div>
+  </view>
+</view>

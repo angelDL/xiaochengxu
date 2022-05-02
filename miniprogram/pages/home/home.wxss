@@ -1,0 +1,52 @@
+/**index.wxss**/
+.home{
+  display: flex;
+  flex-direction: column
+}
+.top{
+  height: 300rpx;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1rpx solid #ccc;
+}
+.camera{
+  height:100%;
+  width: 400rpx;
+  /* border-radius:50%; */
+  /* border: 2rpx solid #1296db; */
+}
+.camera image{
+  height: 250rpx;
+  width: 250rpx;
+}
+.food{
+  height: 150rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #ccc;
+}
+.proDiv{
+  display: flex;
+  flex-direction: column
+}
+.middle{
+  height: 300rpx;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1rpx solid #ccc;
+
+}
+.product{
+  /* padding: 20rpx; */
+}
+.proImg{
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  align-items:center;
+  padding: 0 40rpx;
+  font-size: 12px;
+}
+image{
+  height: 80rpx;
+  width: 80rpx;
+}
